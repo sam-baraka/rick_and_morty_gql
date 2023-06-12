@@ -7,7 +7,7 @@ import { firstValueFrom } from 'rxjs';
 const endpoint = 'https://rickandmortyapi.com/graphql';
 
 // Define the interface for a character object
-interface Character {
+export interface Character {
   id: string;
   name: string;
   status: string;
